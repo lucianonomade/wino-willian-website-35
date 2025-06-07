@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { ArrowRight, Users, Calendar, Zap, Star, Code, Cpu } from 'lucide-react';
 
@@ -39,7 +38,7 @@ const Hero = () => {
             {/* AI Badge */}
             <div className="inline-flex items-center gap-2 glass-morphism rounded-full px-6 py-3 cyber-border">
               <Cpu className="h-4 w-4 text-cyan-400" />
-              <span className="text-sm font-medium text-cyan-400">Tecnologia de Ponta em IA</span>
+              <span className="text-sm font-medium text-cyan-400">Inteligência Artificial que transforma negócios</span>
               <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse"></div>
             </div>
 
