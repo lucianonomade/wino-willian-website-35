@@ -19,11 +19,20 @@ const Header = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
-            <img 
-              src="/lovable-uploads/a6924c1d-e64d-4bd4-9c26-af0e7e5cf7de.png" 
-              alt="Wino.ai Logo" 
-              className="h-8 w-auto"
-            />
+            <svg width="120" height="36" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <style>
+                  {`.logo-text { font-family: Arial, sans-serif; font-weight: 900; }
+                   .subtitle-text { font-family: Arial, sans-serif; font-weight: 400; }`}
+                </style>
+              </defs>
+              <text x="200" y="60" textAnchor="middle" className="logo-text" fontSize="48" fill="hsl(var(--foreground))">
+                <tspan fill="hsl(var(--foreground))">W</tspan><tspan fill="#00D4FF">I</tspan><tspan fill="hsl(var(--foreground))">NO</tspan>
+              </text>
+              <text x="200" y="85" textAnchor="middle" className="subtitle-text" fontSize="12" fill="hsl(var(--muted-foreground))" letterSpacing="2px">
+                AI SOLUTIONS
+              </text>
+            </svg>
           </div>
 
           {/* Desktop Navigation */}
