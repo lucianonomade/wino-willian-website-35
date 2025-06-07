@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -131,7 +130,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-white">Telefone</p>
-                      <p className="text-gray-400">Entre em contato via formulário</p>
+                      <p className="text-gray-400">+55 51 97195-3371</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
@@ -140,7 +139,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-semibold text-white">Email</p>
-                      <p className="text-gray-400">contato@wino.ai</p>
+                      <p className="text-gray-400">winoai@proton.me</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">

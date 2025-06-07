@@ -11,7 +11,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center pt-16 overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
       {/* Animated Background Grid */}
       <div className="absolute inset-0 cyber-grid opacity-20"></div>
       
@@ -39,7 +39,7 @@ const Hero = () => {
             {/* AI Badge */}
             <div className="inline-flex items-center gap-2 glass-morphism rounded-full px-6 py-3 cyber-border">
               <Cpu className="h-4 w-4 text-cyan-400" />
-              <span className="text-sm font-medium text-cyan-400">Powered by AI Technology</span>
+              <span className="text-sm font-medium text-cyan-400">Tecnologia de Ponta em IA</span>
               <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse"></div>
             </div>
 

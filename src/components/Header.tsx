@@ -17,9 +17,9 @@ const Header = () => {
   return (
     <header className="fixed top-0 w-full glass-morphism border-b border-cyan-500/20 z-50 backdrop-blur-xl">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-2">
-            <svg width="120" height="36" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-lg">
+            <svg width="160" height="48" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg" className="drop-shadow-lg">
               <defs>
                 <style>
                   {`.logo-text { font-family: Arial, sans-serif; font-weight: 900; }
