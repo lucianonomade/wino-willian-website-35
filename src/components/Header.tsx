@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
@@ -36,8 +37,8 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            {['Início', 'Sobre', 'Serviços', 'Contato'].map((item, index) => {
-              const sectionIds = ['home', 'about', 'services', 'contact'];
+            {['Início', 'Sobre', 'Serviços', 'Benefícios', 'Contato'].map((item, index) => {
+              const sectionIds = ['home', 'about', 'services', 'benefits', 'contact'];
               return (
                 <button 
                   key={item}
@@ -71,8 +72,8 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-cyan-500/20">
             <nav className="flex flex-col space-y-4">
-              {['Início', 'Sobre', 'Serviços', 'Contato'].map((item, index) => {
-                const sectionIds = ['home', 'about', 'services', 'contact'];
+              {['Início', 'Sobre', 'Serviços', 'Benefícios', 'Contato'].map((item, index) => {
+                const sectionIds = ['home', 'about', 'services', 'benefits', 'contact'];
                 return (
                   <button 
                     key={item}
